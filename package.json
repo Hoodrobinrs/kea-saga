@@ -23,7 +23,7 @@
     "prepublishOnly": "npm run test && npm run build",
     "start": "npm run watch",
     "test": "BABEL_ENV=test jest",
-    "postinstall": "npm run build"
+    "postinstall": "tsc -b"
   },
   "files": [
     "lib",
